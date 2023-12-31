@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
 var audio = document.getElementById('Carry-Me-Home');
 var audio1 = document.getElementById('Andar-Conmigo');
 var audio2 = document.getElementById('Limon-Sal');
@@ -136,11 +135,7 @@ function play() {//Código generado por Copilot para la muestra del Conteo
     document.body.onclick = null;
     contador.style.animation = 'none';
     video.playbackRate = 0.2;
-    
-    audio.addEventListener('canplaythrough', function() {
-        audio.currentTime = 2057;
-    });
-
+    audio.currentTime = 2057;
     audio1.currentTime = 0.0;
     audio2.currentTime = 0.0;
     audio1.volume = 0.5;
@@ -223,5 +218,5 @@ function play() {//Código generado por Copilot para la muestra del Conteo
         audio2.play();
     }, 246500);
 }
-});
+
 
