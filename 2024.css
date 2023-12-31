@@ -12,13 +12,17 @@
     margin-bottom: 10px;
     animation: aparecerDesaparecer 3s linear infinite;
 }
+
+body {
+    background-color: black;
+}
+
 #video{
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    z-index: -1;
 }
 #mensajecorto{
     display: none;
@@ -131,6 +135,7 @@
     body {
         min-height: 0vh;
         font-size: 16px;
+        background-color: blue;
     }
     #titulo{
         display: none;
@@ -235,6 +240,7 @@
     body {
         min-height: 0vh;
         font-size: 16px;
+        background-color: blue;
     }
     #titulo{
         display: none;
@@ -548,6 +554,7 @@
     body {
         min-height: 0vh;
         font-size: 14px;
+        background-color: black;
     }
     #titulo{
         display: none;
