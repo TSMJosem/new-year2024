@@ -136,7 +136,11 @@ function play() {//Código generado por Copilot para la muestra del Conteo
     document.body.onclick = null;
     contador.style.animation = 'none';
     video.playbackRate = 0.2;
-    audio.currentTime = 2057;
+    
+    audio.addEventListener('canplaythrough', function() {
+        audio.currentTime = 2057;
+    });
+
     audio1.currentTime = 0.0;
     audio2.currentTime = 0.0;
     audio1.volume = 0.5;
@@ -212,12 +216,12 @@ function play() {//Código generado por Copilot para la muestra del Conteo
 
     setTimeout(() => {
         audio1.volume = 0.08;
-    }, 247500);
+    }, 246000);
 
     setTimeout(() => {
         audio2.volume = 0.5;
         audio2.play();
-    }, 248000);
+    }, 246500);
 }
 });
 
