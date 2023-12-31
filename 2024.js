@@ -211,12 +211,12 @@ function play() {//Código generado por Copilot para la muestra del Conteo
 
     setTimeout(() => {
         audio1.volume = 0.08;
-    }, 246500);
+    }, 246800);
 
     setTimeout(() => {
         audio2.volume = 0.5;
         audio2.play();
-    }, 247000);
+    }, 246800);
 }
 
 
