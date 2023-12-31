@@ -671,13 +671,13 @@ body
     }
     .swiper {
         display: none;
-        width: 20%;
+        width: 400px;
         height: 55%;
     }
     .swiper-slide{
         background-position: center;
         background-size: cover;
-        width: 250px;
+        width: 200px;
         height: 350px;
     }
     .swiper-slide img{
