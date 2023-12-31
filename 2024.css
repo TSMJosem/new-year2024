@@ -672,13 +672,13 @@ body
     .swiper {
         display: none;
         width: 96%;
-        height: 350px;
+        height: 700px;
     }
     .swiper-slide{
         background-position: center;
         background-size: cover;
-        width: 250px;
-        height: 80%;
+        width: 200px;
+        height: 50%;
     }
     .swiper-slide img{
         object-fit: cover;

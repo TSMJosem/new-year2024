@@ -135,7 +135,7 @@ function play() {//Código generado por Copilot para la muestra del Conteo
     document.body.onclick = null;
     contador.style.animation = 'none';
     video.playbackRate = 0.2;
-    audio.currentTime = 2057;
+    audio.currentTime = 1500;
     audio1.currentTime = 0.0;
     audio2.currentTime = 0.0;
     audio1.volume = 0.5;
