@@ -187,10 +187,11 @@ function play() {//Código generado por Copilot para la muestra del Conteo
     }, 15000);
 
     setTimeout(() => {
+        mensajecorto.style.display = 'none';
         contador.style.display = 'block';
         contador.style.marginTop = '20%';
     }, 30000);
-    
+
     setCountdown('Espera a la sorpresa', 30000);
     setTimeout(() => {
         contador.style.animation = 'aparecerDesaparecer 3s linear infinite';
